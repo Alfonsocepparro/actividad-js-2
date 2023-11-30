@@ -1,3 +1,7 @@
+const NOMBRE = prompt("Ingrese su nombre").toLowerCase();
+alert("Hola" + " " + NOMBRE);
+
+
 const TITULO_PAG = document.getElementById("titulo_pag");
 TITULO_PAG.innerText = "Venta de articulos usados y no tan usados";
 
